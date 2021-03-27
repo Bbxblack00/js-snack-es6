@@ -4,29 +4,91 @@
 // una bici da corsa con le seguenti proprietà: nome e peso.
 // Stampare a schermo la bici con peso minore.
 
-function racingBikes() {
-  let bikes = [
+// function racingBikes() {
+//   let bikes = [
+//     {
+//       'name': 'ducati',
+//       'weigth': 11
+//     },
+//     {
+//       'name': 'ktm',
+//       'weigth': 12
+//     },
+//     {
+//       'name': 'maserati',
+//       'weigth': 10
+//     },
+//     {
+//       'name': 'ferrari',
+//       'weigth': 14
+//     },
+//   ];
+//   var liteBike = {'weigth': Number.MAX_VALUE};
+//
+//   for (var i = 0; i < bikes.length; i++) {
+//     if (liteBike['weigth'] > bikes[i]['weigth']) {
+//       liteBike = bikes[i];
+//     }
+//   }
+//
+//   console.log(liteBike);
+//
+// }
+
+
+
+
+// Creare un array di oggetti di squadre di calcio.
+// Ogni squadra avrà diverse proprietà:
+// nome, punti fatti, falli subiti.
+
+// Nome sarà l'unica proprietà da compilare,
+// le altre saranno tutte settate a 0.
+
+
+function ftTeams() {
+  let teams = [
     {
-      'name': 'ducati',
-      'weigth': 11
+      'name': 'teams1',
+      'point': 0,
+      'mistake': 0
     },
     {
-      'name': 'ktm',
-      'weigth': 12
+      'name': 'teams2',
+      'point': 0,
+      'mistake': 0
     },
     {
-      'name': 'maserati',
-      'weigth': 10
+      'name': 'teams3',
+      'point': 0,
+      'mistake': 0
     },
     {
-      'name': 'ferrari',
-      'weigth': 14
+      'name': 'teams4',
+      'point': 0,
+      'mistake': 0
     },
-  ]
+    {
+      'name': 'teams5',
+      'point': 0,
+      'mistake': 0
+    },
+  ];
+}
+
+
+function rnd() {
+
+  
+
 }
 
 
 function init() {
+
+  function ftTeams();
+
+  // racingBikes();
 
 
 
