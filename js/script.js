@@ -77,9 +77,14 @@ function ftTeams() {
 }
 
 
-function rnd() {
+function rnd(min, max) {
 
-  
+  const RndMin = min;
+  const RndMax = (max - min) + 1;
+
+  var rndValue = Math.floor(Math.random() * RndMax) + RndMin;
+
+  return rndValue;
 
 }
 
