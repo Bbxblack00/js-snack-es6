@@ -74,6 +74,26 @@ function ftTeams() {
       'mistake': 0
     },
   ];
+
+  for (let i = 0; i < teams.length; i++) {
+
+    var rndValue1 = rnd(1, 50);
+    var rndValue2 = rnd(1, 50);
+
+    let temp = {
+      'point': rndValue1,
+      'mistake': rndValue2
+    };
+
+
+
+
+
+    teams[i]['point'] = temp['point'];
+    teams[i]['mistake'] = temp['mistake'];
+
+  }
+  console.log(teams);
 }
 
 
@@ -91,7 +111,7 @@ function rnd(min, max) {
 
 function init() {
 
-  function ftTeams();
+ ftTeams();
 
   // racingBikes();
 
