@@ -101,15 +101,17 @@ function ftTeams() {
 
 
 const resArr = [];
-for (let i=0; i<teams.length; i++) {\
+for (let i = 0; i < teams.length; i++) {
 
     const team = teams[i];
 
-    let { 'point', 'mistake' } = team;
-    let addObj = { 'point', 'mistake' };
+    let { point, mistake } = team;
+    let addObj = { point, mistake };
 
-    resArr.push(resObj);
+    resArr.push(addObj);
 }
+
+console.log(teams, resArr);
 
 }
 
