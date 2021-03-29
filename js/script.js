@@ -93,7 +93,24 @@ function ftTeams() {
     teams[i]['mistake'] = temp['mistake'];
 
   }
-  console.log(teams);
+
+// Usando la destrutturazione creiamo un nuovo array
+// i cui elementi contengono solo nomi e falli subiti
+// e stampiamo tutto in console.
+
+
+
+const resArr = [];
+for (let i=0; i<teams.length; i++) {\
+
+    const team = teams[i];
+
+    let { 'point', 'mistake' } = team;
+    let addObj = { 'point', 'mistake' };
+
+    resArr.push(resObj);
+}
+
 }
 
 
